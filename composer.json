@@ -1,0 +1,28 @@
+{
+  "name" : "commonhelp/cppress-scaffold-theme",
+  "type" : "wp-theme",
+  "description" : "Scaffold Wordpress theme for CpPress Development",
+  "keywords" : [
+    "wordpress",
+    "theme",
+    "frontend"
+  ],
+  "homepage" : "https://github.com/marcoski/cp-press-scaffold-theme",
+  "license" : "GPLv3",
+  "authors" : [{
+    "name" : "Marco 'Marcoski' Trognoni",
+    "email" : "mtrognon@commonhelp.it",
+    "homepage" : "http://www.commonhelp.it",
+    "role" : "Developer"
+  }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "CpPressTheme\\" : "src/CpPressTheme"
+    }
+  },
+  "minimum-stability" : "dev",
+  "require" : {
+    "php" : ">=5.6"
+  }
+}

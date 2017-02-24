@@ -1,0 +1,34 @@
+// Make space mixins
+.make-space(@value:60;);
+.make-space(@value:50;);
+.make-space(@value:40;);
+.make-space(@value:30;);
+.make-space(@value:20;);
+.make-space(@value:15;);
+.make-space(@value:10;);
+.make-space(@value:5;);
+.make-space(@value:0;);
+.make-space(@value) {
+  .p-@{value}   { padding:        ~"@{value}px"; }
+  .p-important-@{value}   { padding:        ~"@{value}px !important"; }
+  .pt-@{value}  { padding-top:    ~"@{value}px"; }
+  .pt-important-@{value}  { padding-top:    ~"@{value}px !important"; }
+  .pl-@{value}  { padding-left:   ~"@{value}px"; }
+  .pl-important-@{value}  { padding-left:   ~"@{value}px !important"; }
+  .pr-@{value}  { padding-right:  ~"@{value}px"; }
+  .pr-important-@{value}  { padding-right:  ~"@{value}px !important"; }
+  .pb-@{value}  { padding-bottom: ~"@{value}px"; }
+  .pb-important-@{value}  { padding-bottom: ~"@{value}px !important"; }
+  .m-@{value}   { margin:         ~"@{value}px"; }
+  .m-important-@{value}   { margin:         ~"@{value}px !important"; }
+  .mt-@{value}  { margin-top:     ~"@{value}px"; }
+  .mt-important-@{value}  { margin-top:     ~"@{value}px !important"; }
+  .ml-@{value}  { margin-left:    ~"@{value}px"; }
+  .ml-important-@{value}  { margin-left:    ~"@{value}px !important"; }
+  .mr-@{value}  { margin-right:   ~"@{value}px"; }
+  .mr-important-@{value}  { margin-left:    ~"@{value}px !important"; }
+  .mb-@{value}  { margin-bottom:  ~"@{value}px"; }
+  .mb-important-@{value}  { margin-bottom:  ~"@{value}px !important"; }
+}
+
+// Define here your custom mixins
